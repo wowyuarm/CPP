@@ -13,12 +13,12 @@ int main()
 	   b=num/10%10;
 	   c=num%10;
 	   
-	   if(num==a*a*a+b*b*b+c*c*c)
+	  if(num==a*a*a+b*b*b+c*c*c)
           {
 		cout<<num<<endl;
 		num++;
  	  }
-	   else
+	  else
 	  {
 		num++;
 	  }
