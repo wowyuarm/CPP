@@ -1,4 +1,4 @@
-//ÈıÎ»ÊıÖĞµÄË®ÏÉ»¨Êı¸öÊı 
+//ä¸‰ä½æ•°ä¸­çš„æ°´ä»™èŠ±æ•°ä¸ªæ•° 
 #include<iostream>
 using namespace std;
 
@@ -8,21 +8,21 @@ int main()
 	int a,b,c;
 	
 	do
-	{
+        {
 	   a=num/100;
 	   b=num/10%10;
 	   c=num%10;
 	   
-	   if(num==a*a*a+b*b*b+c*c*c)
-      {
+	  if(num==a*a*a+b*b*b+c*c*c)
+          {
 		cout<<num<<endl;
 		num++;
  	  }
-	   else
+	  else
 	  {
 		num++;
 	  }
-    }while(num<1000);
+        }while(num<1000);
 	
 	return 0;
 }
